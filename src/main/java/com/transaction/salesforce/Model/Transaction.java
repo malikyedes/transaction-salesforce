@@ -8,7 +8,7 @@ package com.transaction.salesforce.Model;
 	import javax.persistence.Table;
 
 	@Entity
-	@Table(name = "transaction__c",  schema="salesforcebank")
+	@Table(name = "transaction__c",  schema="salesforce")
 	public class Transaction {
 
 		@Id
